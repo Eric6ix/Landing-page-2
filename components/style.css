@@ -99,22 +99,22 @@ main section {
 .main-text .content span:hover {
   opacity: 0.8;
 }
-.greem {
+#green {
   background-color: #384937;
 }
-.pink {
+#pink {
   background-color: #f8ddd5;
 }
-.blue {
+#blue {
   background-color: #225f7e;
 }
-.black {
+#black {
   background-color: #192028;
 }
-.white {
+#white {
   background-color: #f7f2ee;
 }
-.red {
+#red {
   background-color: #ae0617;
 }
 .main-img {

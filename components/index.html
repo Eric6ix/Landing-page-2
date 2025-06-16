@@ -6,6 +6,7 @@
     <title>iPhone | Site</title>
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     
@@ -17,7 +18,7 @@
             <ul>
                 <li><a href="#">Mac</a></li>
                 <li><a href="#">iPad</a></li>
-                <li><a href="#" class="check">iPhone</a></li>
+                <li><a href="#"class="check">iPhone</a></li>
                 <li><a href="#">Watch</a></li>
                 <li><a href="#">AirPods</a></li>
                 <li><a href="#">Only on Apple</a></li>
@@ -31,29 +32,31 @@
         <section>
             <div class="circle"></div>
             <div class="main-text">
-                <img src="../img/iphone13.png" alt="">
+                <img src="../img/iphone13.png" alt="logo">
                 <h3>Your new superpower </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, omnis. Rem quibusdam harum voluptatem, inventore odit qui, eaque, officiis esse voluptate placeat mollitia eligendi voluptas quam sapiente error minus provident.
-                Ex possimus voluptatibus qui odio dolore nesciunt necessitatibus asperiores sunt nostrum laboriosam, sit optio reprehenderit amet minus aliquid rerum eveniet in eius a est. Voluptates natus ab quasi. Voluptatibus, repellat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, omnis. <br> Rem quibusdam harum voluptatem, inventore odit qui, eaque, officiis <br> esse voluptate placeat mollitia eligendi voluptas quam sapiente error</p>
                 <h6>Exclusive version R$ 6.600</h6>
                 <a href="#" class="btn-buy">Buy now</a>
                 <div class="text">
                     <h5>Choose your iPhone 13 Pro Max color and storage capacity:</h5>
                 </div>
                 <div class="content">
-                    <span class="greem"></span>
-                    <span class="pink"></span>
-                    <span class="blue"></span>
-                    <span class="black"></span>
-                    <span class="white"></span>
-                    <span class="red"></span>
+                    <span id="green"onclick = "imgSlide('../img/green.png'); chengCircle('#384937')"></span>
+                    <span id="blue"onclick = "imgSlide('../img/blue.png'); chengCircle('#225f7e')"></span>
+                    <span id="pink"onclick = "imgSlide('../img/pink.png'); chengCircle('#f8ddd5')"></span>
+                    <span id="black"onclick = "imgSlide('../img/black.png'); chengCircle('#192028')"></span>
+                    <span id="white"onclick = "imgSlide('../img/white.png'); chengCircle('#f7f2ee')"></span>
+                    <span id="red"onclick = "imgSlide('../img/red.png'); chengCircle('#ae0617')"></span>
                 </div>
             </div>
             <div class="main-img">
-                <img src="../img/green.png" alt="iPhone 13 Pro Max Greem">
+                <img src="../img/green.png" alt="iPhone 13 Pro Max Greem" id="phone">
             </div>
         </section>
     </main>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
